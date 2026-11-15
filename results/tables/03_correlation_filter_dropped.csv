@@ -1,0 +1,22 @@
+dropped_feature,kept_instead,correlation
+Packet Length Mean,Average Packet Size,0.998
+Subflow Fwd Bytes,Total Length of Fwd Packets,1.0
+Subflow Bwd Bytes,Total Length of Bwd Packets,1.0
+Avg Bwd Segment Size,Bwd Packet Length Mean,1.0
+Max Packet Length,Packet Length Std,0.984
+Bwd Packet Length Max,Bwd Packet Length Mean,0.958
+Flow IAT Max,Fwd IAT Max,0.998
+Avg Fwd Segment Size,Fwd Packet Length Mean,1.0
+Fwd IAT Total,Flow Duration,0.999
+Fwd Packets/s,Flow Packets/s,0.981
+Fwd Packet Length Std,Fwd Packet Length Max,0.967
+Subflow Bwd Packets,Total Length of Bwd Packets,0.995
+Total Backward Packets,Total Length of Bwd Packets,0.995
+Total Fwd Packets,Total Length of Bwd Packets,0.997
+Subflow Fwd Packets,Total Length of Bwd Packets,0.997
+min_seg_size_forward,Bwd Header Length,0.988
+Idle Max,Fwd IAT Max,0.989
+Idle Mean,Fwd IAT Max,0.979
+Fwd PSH Flags,SYN Flag Count,1.0
+CWE Flag Count,Fwd URG Flags,1.0
+RST Flag Count,ECE Flag Count,1.0

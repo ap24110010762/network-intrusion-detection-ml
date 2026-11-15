@@ -1,0 +1,11 @@
+Label_Group,% rows = 0: Total Length of Fwd Packets,% rows = 0: Fwd Packet Length Max,% rows = 0: Average Packet Size,% rows = 0: Flow Bytes/s
+BENIGN,13.2,13.2,12.6,12.6
+Bot,25.9,25.9,0.1,0.1
+DDoS,0.0,0.0,0.0,0.0
+DoS,7.9,7.9,7.7,7.7
+FTP-Patator,0.2,0.2,0.2,0.2
+Heartbleed,0.0,0.0,0.0,0.0
+Infiltration,3.4,3.4,0.0,0.0
+PortScan,50.8,50.8,0.7,0.7
+SSH-Patator,7.5,7.5,7.5,7.5
+Web Attack,91.4,91.4,91.4,91.4

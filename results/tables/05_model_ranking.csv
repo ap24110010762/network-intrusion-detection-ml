@@ -1,0 +1,7 @@
+model,binary_f1,binary_pr_auc,multi_macro_f1,multi_accuracy,train_s_binary,predict_s_binary,rank_binary,rank_multi,avg_rank
+XGBoost,0.9966,0.9998,0.9221,0.9986,7.6,0.3,1.0,1.0,1.0
+Random Forest,0.9952,0.997,0.8719,0.9983,97.8,0.7,2.0,3.0,2.5
+Decision Tree,0.9939,0.989,0.8729,0.9981,20.4,0.0,3.0,2.0,2.5
+KNN,0.9904,0.9926,0.8143,0.9966,0.1,47.0,4.0,5.0,4.5
+Logistic Regression,0.94,0.9729,0.8335,0.9952,19.2,0.2,6.0,4.0,5.0
+SVM (RBF),0.987,0.9962,0.6936,0.9954,8.3,16.2,5.0,6.0,5.5

@@ -1,0 +1,12 @@
+{
+ "BENIGN": 0,
+ "Bot": 1,
+ "DDoS": 2,
+ "DoS": 3,
+ "FTP-Patator": 4,
+ "Heartbleed": 5,
+ "Infiltration": 6,
+ "PortScan": 7,
+ "SSH-Patator": 8,
+ "Web Attack": 9
+}

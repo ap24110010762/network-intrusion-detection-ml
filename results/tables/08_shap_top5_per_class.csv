@@ -1,0 +1,11 @@
+class,#1,#2,#3,#4,#5
+BENIGN,Bwd Packet Length Std (1.34),Init_Win_bytes_forward (0.67),Average Packet Size (0.64),Init_Win_bytes_backward (0.64),Bwd Header Length (0.63)
+Bot,Destination Port (4.25),Init_Win_bytes_forward (2.22),Bwd Packets/s (1.44),Flow Bytes/s (1.24),Total Length of Bwd Packets (0.99)
+DDoS,Destination Port (1.56),Fwd Packet Length Max (1.40),Init_Win_bytes_forward (1.30),Total Length of Fwd Packets (0.87),ACK Flag Count (0.83)
+DoS,Destination Port (2.79),Init_Win_bytes_forward (1.07),Init_Win_bytes_backward (1.05),Bwd Packets/s (1.03),Fwd Header Length (0.78)
+FTP-Patator,Destination Port (3.96),ACK Flag Count (2.93),Fwd IAT Min (2.39),Fwd IAT Mean (1.45),Init_Win_bytes_forward (1.17)
+Heartbleed,Bwd Packet Length Mean (0.47),Bwd Packet Length Std (0.31),Fwd Packet Length Max (0.30),Fwd Header Length (0.18),Destination Port (0.13)
+Infiltration,Min Packet Length (1.79),Bwd Packet Length Mean (1.73),Init_Win_bytes_forward (1.43),Destination Port (1.39),Total Length of Fwd Packets (1.21)
+PortScan,Total Length of Fwd Packets (2.88),Flow Bytes/s (0.95),Init_Win_bytes_forward (0.84),Flow Duration (0.65),Flow IAT Mean (0.54)
+SSH-Patator,Destination Port (6.72),Fwd Packet Length Max (4.34),Init_Win_bytes_forward (0.90),Bwd Packets/s (0.59),Flow IAT Min (0.50)
+Web Attack,Init_Win_bytes_backward (2.21),Init_Win_bytes_forward (1.65),Flow Duration (1.33),Destination Port (1.01),ACK Flag Count (0.91)

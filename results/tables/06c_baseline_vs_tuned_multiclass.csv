@@ -1,0 +1,6 @@
+configuration,macro-F1 (mean ± std),pooled macro-F1,Bot F1,Infiltration recall,Heartbleed F1,false-alarm rate (%)
+XGBoost baseline (no SMOTE),0.9592 ± 0.0251,0.9612,0.922,0.724,0.889,0.117
+XGBoost + SMOTE (defaults),0.9745 ± 0.0118,0.9746,0.929,0.897,1.0,0.107
+XGBoost + SMOTE (tuned),0.9740 ± 0.0154,0.9754,0.931,0.862,0.947,0.106
+Random Forest baseline (06a),0.9653 ± 0.0186,0.9661,0.909,0.724,0.941,0.091
+Random Forest + SMOTE (tuned),0.9666 ± 0.0150,0.9673,0.915,0.759,0.941,0.092

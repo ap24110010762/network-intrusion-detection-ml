@@ -1,0 +1,2 @@
+accuracy,macro_f1,weighted_f1,false_alarm_rate
+0.99915,0.95655,0.99915,0.00077

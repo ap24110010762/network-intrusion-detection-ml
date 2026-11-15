@@ -1,0 +1,11 @@
+Label_Group,count,percent,times_smaller_than_BENIGN
+BENIGN,2072254,82.957,1.0
+DoS,193730,7.755,10.7
+DDoS,128014,5.125,16.2
+PortScan,90694,3.631,22.8
+FTP-Patator,5931,0.237,349.4
+SSH-Patator,3219,0.129,643.8
+Web Attack,2143,0.086,967.0
+Bot,1948,0.078,1063.8
+Infiltration,36,0.001,57562.6
+Heartbleed,11,0.0,188386.7

@@ -1,0 +1,11 @@
+Label_Group,count
+BENIGN,2072254
+DoS,193730
+DDoS,128014
+PortScan,90694
+FTP-Patator,5931
+SSH-Patator,3219
+Web Attack,2143
+Bot,1948
+Infiltration,36
+Heartbleed,11

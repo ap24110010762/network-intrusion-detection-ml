@@ -1,0 +1,7 @@
+decision,reason,count_affected
+Dropped duplicate column,identical copy of Fwd Header Length: Fwd Header Length.1,1
+Dropped rows with NaN/inf,all in Flow Bytes/s and Flow Packets/s (division by zero); tiny share of data,2867
+Dropped duplicate rows,prevents identical rows in both train and test,329896
+Dropped constant columns,"Bwd PSH Flags, Bwd URG Flags, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate",8
+Kept negative values,Init_Win_bytes = -1 is a valid code; ~100 negative time values are too few to matter,0
+Added Label_Group column,"DoS variants -> DoS, Web Attack variants -> Web Attack",0

@@ -1,0 +1,5 @@
+strategy,macro-F1 (mean ± std),change vs original (mean ± std),Bot F1,Infiltration recall,Heartbleed F1,false-alarm rate (%),train rows used,sec per fold
+Original data,0.9592 ± 0.0251,0.0000 ± 0.0000,0.922,0.724,0.889,0.117,406056,77.0
+Class weights (sqrt),0.9555 ± 0.0160,-0.0037 ± 0.0271,0.932,0.793,0.889,0.119,406056,78.7
+"Undersampling (cap 20,000)",0.9790 ± 0.0072,0.0198 ± 0.0273,0.897,0.862,1.0,0.2,83016,16.9
+"SMOTE (small classes to 2,000)",0.9745 ± 0.0118,0.0153 ± 0.0281,0.929,0.897,1.0,0.107,411407,81.3

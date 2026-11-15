@@ -1,0 +1,4 @@
+model,Macro-F1 (mean ± std),Weighted-F1,Pooled macro-F1 (every row judged once),sec per fold
+Decision Tree,0.9635 ± 0.0185,0.9979 ± 0.0002,0.9644,26.8
+Random Forest,0.9653 ± 0.0186,0.9982 ± 0.0001,0.9661,149.7
+XGBoost,0.9545 ± 0.0427,0.9980 ± 0.0015,0.9546,88.6

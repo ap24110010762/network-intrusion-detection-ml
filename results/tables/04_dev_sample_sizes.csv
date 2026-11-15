@@ -1,0 +1,11 @@
+Label_Group,dev_train,"slow_train (KNN, SVM)",dev_val
+BENIGN,248872,41478,82957
+Bot,234,39,78
+DDoS,15374,2562,5125
+DoS,23266,3878,7756
+FTP-Patator,712,119,237
+Heartbleed,6,6,2
+Infiltration,6,6,2
+PortScan,10892,1815,3631
+SSH-Patator,387,64,129
+Web Attack,257,43,86

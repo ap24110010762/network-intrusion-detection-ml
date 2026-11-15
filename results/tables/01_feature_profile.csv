@@ -1,0 +1,80 @@
+,dtype,missing,infinite,unique_values
+Destination Port,float32,0,0,53805
+Flow Duration,float32,0,0,1012061
+Total Fwd Packets,float32,0,0,1432
+Total Backward Packets,float32,0,0,1747
+Total Length of Fwd Packets,float32,0,0,17928
+Total Length of Bwd Packets,float32,0,0,64698
+Fwd Packet Length Max,float32,0,0,5279
+Fwd Packet Length Min,float32,0,0,384
+Fwd Packet Length Mean,float32,0,0,85557
+Fwd Packet Length Std,float32,0,0,241199
+Bwd Packet Length Max,float32,0,0,4838
+Bwd Packet Length Min,float32,0,0,583
+Bwd Packet Length Mean,float32,0,0,133411
+Bwd Packet Length Std,float32,0,0,234225
+Flow Bytes/s,float32,1358,1509,1527320
+Flow Packets/s,float32,0,2867,1165221
+Flow IAT Mean,float32,0,0,1139155
+Flow IAT Std,float32,0,0,999578
+Flow IAT Max,float32,0,0,579137
+Flow IAT Min,float32,0,0,136019
+Fwd IAT Total,float32,0,0,491588
+Fwd IAT Mean,float32,0,0,728829
+Fwd IAT Std,float32,0,0,679079
+Fwd IAT Max,float32,0,0,436099
+Fwd IAT Min,float32,0,0,109897
+Bwd IAT Total,float32,0,0,413948
+Bwd IAT Mean,float32,0,0,663929
+Bwd IAT Std,float32,0,0,700222
+Bwd IAT Max,float32,0,0,367233
+Bwd IAT Min,float32,0,0,65796
+Fwd PSH Flags,float32,0,0,2
+Bwd PSH Flags,float32,0,0,1
+Fwd URG Flags,float32,0,0,2
+Bwd URG Flags,float32,0,0,1
+Fwd Header Length,float32,0,0,3768
+Bwd Header Length,float32,0,0,3944
+Fwd Packets/s,float32,0,0,1145868
+Bwd Packets/s,float32,0,0,1038543
+Min Packet Length,float32,0,0,215
+Max Packet Length,float32,0,0,5708
+Packet Length Mean,float32,0,0,194339
+Packet Length Std,float32,0,0,396472
+Packet Length Variance,float32,0,0,395922
+FIN Flag Count,float32,0,0,2
+SYN Flag Count,float32,0,0,2
+RST Flag Count,float32,0,0,2
+PSH Flag Count,float32,0,0,2
+ACK Flag Count,float32,0,0,2
+URG Flag Count,float32,0,0,2
+CWE Flag Count,float32,0,0,2
+ECE Flag Count,float32,0,0,2
+Down/Up Ratio,float32,0,0,31
+Average Packet Size,float32,0,0,191898
+Avg Fwd Segment Size,float32,0,0,85557
+Avg Bwd Segment Size,float32,0,0,133411
+Fwd Header Length.1,float32,0,0,3768
+Fwd Avg Bytes/Bulk,float32,0,0,1
+Fwd Avg Packets/Bulk,float32,0,0,1
+Fwd Avg Bulk Rate,float32,0,0,1
+Bwd Avg Bytes/Bulk,float32,0,0,1
+Bwd Avg Packets/Bulk,float32,0,0,1
+Bwd Avg Bulk Rate,float32,0,0,1
+Subflow Fwd Packets,float32,0,0,1432
+Subflow Fwd Bytes,float32,0,0,17928
+Subflow Bwd Packets,float32,0,0,1747
+Subflow Bwd Bytes,float32,0,0,64737
+Init_Win_bytes_forward,float32,0,0,12151
+Init_Win_bytes_backward,float32,0,0,13112
+act_data_pkt_fwd,float32,0,0,1093
+min_seg_size_forward,float32,0,0,27
+Active Mean,float32,0,0,325795
+Active Std,float32,0,0,201882
+Active Max,float32,0,0,299565
+Active Min,float32,0,0,175670
+Idle Mean,float32,0,0,197144
+Idle Std,float32,0,0,196816
+Idle Max,float32,0,0,148873
+Idle Min,float32,0,0,223576
+Label,object,0,0,15

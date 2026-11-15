@@ -1,0 +1,11 @@
+Label_Group,train_count,test_count,train_percent,test_percent
+BENIGN,1657803,414451,82.957,82.957
+DoS,154984,38746,7.755,7.755
+DDoS,102411,25603,5.125,5.125
+PortScan,72555,18139,3.631,3.631
+FTP-Patator,4745,1186,0.237,0.237
+SSH-Patator,2575,644,0.129,0.129
+Web Attack,1715,428,0.086,0.086
+Bot,1558,390,0.078,0.078
+Infiltration,29,7,0.001,0.001
+Heartbleed,9,2,0.0,0.0

@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,roc_auc,pr_auc,false_alarm_rate,missed_attacks,false_alarms
+0.99922,0.99678,0.99864,0.99771,0.99997,0.9999,0.00066,116,275

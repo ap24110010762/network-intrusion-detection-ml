@@ -1,0 +1,31 @@
+model,class,precision,recall,f1,support
+XGBoost,BENIGN,0.9991,0.9986,0.9989,414451
+XGBoost,Bot,0.8676,0.8832,0.8753,1558
+XGBoost,DDoS,0.9993,0.9988,0.9991,25603
+XGBoost,DoS,0.9962,0.9975,0.9969,38746
+XGBoost,FTP-Patator,0.9983,0.9985,0.9984,4745
+XGBoost,Heartbleed,0.9,1.0,0.9474,9
+XGBoost,Infiltration,0.9048,0.6552,0.76,29
+XGBoost,PortScan,0.9885,0.9981,0.9933,18139
+XGBoost,SSH-Patator,0.9926,0.9953,0.994,2575
+XGBoost,Web Attack,0.9853,0.9796,0.9825,1715
+Random Forest,BENIGN,0.9988,0.9991,0.9989,414451
+Random Forest,Bot,0.9094,0.9089,0.9091,1558
+Random Forest,DDoS,0.9998,0.9991,0.9995,25603
+Random Forest,DoS,0.9986,0.9967,0.9976,38746
+Random Forest,FTP-Patator,1.0,0.9994,0.9997,4745
+Random Forest,Heartbleed,1.0,0.8889,0.9412,9
+Random Forest,Infiltration,1.0,0.7241,0.84,29
+Random Forest,PortScan,0.9894,0.9904,0.9899,18139
+Random Forest,SSH-Patator,1.0,0.9981,0.999,2575
+Random Forest,Web Attack,0.9952,0.9773,0.9862,1715
+Decision Tree,BENIGN,0.9988,0.9988,0.9988,414451
+Decision Tree,Bot,0.896,0.9012,0.8986,1558
+Decision Tree,DDoS,0.9991,0.9994,0.9993,25603
+Decision Tree,DoS,0.9972,0.9979,0.9975,38746
+Decision Tree,FTP-Patator,0.9987,0.9992,0.9989,4745
+Decision Tree,Heartbleed,1.0,1.0,1.0,9
+Decision Tree,Infiltration,0.8148,0.7586,0.7857,29
+Decision Tree,PortScan,0.988,0.987,0.9875,18139
+Decision Tree,SSH-Patator,0.9992,0.9984,0.9988,2575
+Decision Tree,Web Attack,0.9796,0.9778,0.9787,1715
