@@ -6,22 +6,6 @@ and a Streamlit demo.
 
 
 
-\## Screenshots
-
-
-
-!\[Detector](docs/detector.png)
-
-
-
-!\[Overall analysis](docs/overall.png)
-
-
-
-!\[Model Performance](docs/performance.png)
-
-
-
 ## Results (locked test set, 499,596 flows, scored once)
 
 |Task|Result|
@@ -30,6 +14,26 @@ and a Streamlit demo.
 |10-class (XGBoost + SMOTE)|accuracy 0.9991, macro-F1 0.9566; weakest class: Bot (F1 0.84)|
 
 Heartbleed (2 test flows) and Infiltration (7 test flows) are too small for reliable estimates.
+
+
+
+<h2>Screenshots</h2>
+
+
+
+<p align="center"><img src="docs/detector.png" alt="Detector" width="95%"></p>
+
+
+
+<p align="center"><img src="docs/overall.png" alt="Overall analysis" width="95%"></p>
+
+
+
+<p align="center"><img src="docs/performance.png" alt="Model performance" width="95%"></p>
+
+
+
+
 
 ## Method in short
 
@@ -62,7 +66,7 @@ Needs Python 3.11 to 3.13 (tested on 3.13).
 
 python -m venv venv
 
-venv\\Scripts\\activate
+venv\\\\Scripts\\\\activate
 
 pip install -r requirements.txt
 
@@ -72,15 +76,15 @@ streamlit run app/app.py
 
 
 
-After the first setup you can just double-click `run\_app.bat`.
+After the first setup you can just double-click `run\\\_app.bat`.
 
 
 
 Two demo files are included in `app/`:
 
-\- `demo\_flows.csv`: 135 test flows covering every attack type.
+\- `demo\\\_flows.csv`: 135 test flows covering every attack type.
 
-\- `demo\_flows\_2.csv`: 200 test flows, mostly normal traffic with a few attacks.
+\- `demo\\\_flows\\\_2.csv`: 200 test flows, mostly normal traffic with a few attacks.
 
 
 
