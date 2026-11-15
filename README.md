@@ -4,15 +4,21 @@ Course project (SRM University-AP). Detects malicious network flows in the CIC-I
 (binary: BENIGN vs ATTACK) and names the attack type (10 classes), with SHAP explanations
 and a Streamlit demo.
 
+
+
 \## Screenshots
 
 
 
 !\[Detector](docs/detector.png)
 
+
+
 !\[Overall analysis](docs/overall.png)
 
-!\[Model performance](docs/performance.png)
+
+
+!\[Model Performance](docs/performance.png)
 
 
 
