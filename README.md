@@ -4,12 +4,24 @@ Course project (SRM University-AP). Detects malicious network flows in the CIC-I
 (binary: BENIGN vs ATTACK) and names the attack type (10 classes), with SHAP explanations
 and a Streamlit demo.
 
+\## Screenshots
+
+
+
+!\[Detector](docs/detector.png)
+
+!\[Overall analysis](docs/overall.png)
+
+!\[Model performance](docs/performance.png)
+
+
+
 ## Results (locked test set, 499,596 flows, scored once)
 
-| Task | Result |
-|---|---|
-| Binary (XGBoost) | recall 0.9986, precision 0.9968, F1 0.9977, ROC-AUC 0.99997; 116 missed attacks, 275 false alarms (0.066% of normal flows) |
-| 10-class (XGBoost + SMOTE) | accuracy 0.9992, macro-F1 0.9566; weakest class: Bot (F1 0.84) |
+|Task|Result|
+|-|-|
+|Binary (XGBoost)|recall 0.9986, precision 0.9968, F1 0.9977, ROC-AUC 0.99997; 116 missed attacks, 275 false alarms (0.066% of normal flows)|
+|10-class (XGBoost + SMOTE)|accuracy 0.9991, macro-F1 0.9566; weakest class: Bot (F1 0.84)|
 
 Heartbleed (2 test flows) and Infiltration (7 test flows) are too small for reliable estimates.
 
@@ -25,24 +37,56 @@ Heartbleed (2 test flows) and Infiltration (7 test flows) are too small for reli
 
 ## Limitations (please read)
 
-- One lab testbed (CIC-IDS2017); results may not transfer to other networks.
-- SHAP shows reliance on destination port and TCP window size (Init_Win_bytes_*). Removing both lowers binary F1 to about 0.990 and Bot F1 to about 0.71 in cross-validation.
-- Most Web Attack flows have zero payload bytes, so that class is probably recognised by flow/lab characteristics, not by attack content.
-- Random split: flows from the same attack sessions appear in train and test.
+* One lab testbed (CIC-IDS2017); results may not transfer to other networks.
+* SHAP shows reliance on destination port and TCP window size (Init\_Win\_bytes\_\*). Removing both lowers binary F1 to about 0.990 and Bot F1 to about 0.71 in cross-validation.
+* Most Web Attack flows have zero payload bytes, so that class is probably recognised by flow/lab characteristics, not by attack content.
+* Random split: flows from the same attack sessions appear in train and test.
 
-## Run the demo (Windows)
 
-    python -m venv venv
-    venv\Scripts\activate
-    pip install -r requirements.txt
-    streamlit run app/app.py
+
+\## Run the demo (Windows)
+
+
+
+Needs Python 3.11 to 3.13 (tested on 3.13).
+
+
+
+```
+
+python -m venv venv
+
+venv\\Scripts\\activate
+
+pip install -r requirements.txt
+
+streamlit run app/app.py
+
+```
+
+
+
+After the first setup you can just double-click `run\_app.bat`.
+
+
+
+Two demo files are included in `app/`:
+
+\- `demo\_flows.csv`: 135 test flows covering every attack type.
+
+\- `demo\_flows\_2.csv`: 200 test flows, mostly normal traffic with a few attacks.
+
+
+
+In the app choose \*\*Upload a file\*\* and upload either one. Click any row to see why the model decided that way.
 
 ## Folders
 
-- `notebooks/` - all experiments in order (01 to 09)
-- `src/` - helper code (`preprocessing.py` is needed to load the saved models)
-- `models/` - final binary and 10-class XGBoost models (portable JSON files used by the app; joblib pipelines kept for reference)
-- `results/` - tables, figures, experiment log
-- `app/` - Streamlit app and a small demo sample
+* `notebooks/` - all experiments in order (01 to 09)
+* `src/` - helper code (`preprocessing.py` is needed to load the saved models)
+* `models/` - final binary and 10-class XGBoost models (portable JSON files used by the app; joblib pipelines kept for reference)
+* `results/` - tables, figures, experiment log
+* `app/` - Streamlit app and a small demo sample
 
 The dataset is not included. Download CIC-IDS2017 from the Canadian Institute for Cybersecurity website.
+
